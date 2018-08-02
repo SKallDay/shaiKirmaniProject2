@@ -132,6 +132,19 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
+.visuallyhidden:not(:focus):not(:active) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+  clip-path: inset(100%);
+  clip: rect(0 0 0);
+  overflow: hidden; }
+
 html {
   font-size: 62.5%;
   font-family: 'Raleway', sans-serif, 'Lora', serif; }
@@ -139,7 +152,8 @@ html {
 h1 {
   font-size: 5rem;
   color: white;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  margin-bottom: 0; }
 
 h2 {
   font-size: 3rem; }
@@ -172,22 +186,19 @@ header {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  border: 1px solid green;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center; }
   .header_row_h2 {
     color: white;
     -webkit-box-flex: 1;
-    -ms-flex: 1 1 30%;
-    flex: 1 1 30%;
-    border: 1px solid red; }
+    -ms-flex: 1 1 50%;
+    flex: 1 1 50%; }
 
 .head_nav {
   -webkit-box-flex: 3;
-  -ms-flex: 3 1 70%;
-  flex: 3 1 70%;
-  border: 1px solid green; }
+  -ms-flex: 3 1 50%;
+  flex: 3 1 50%; }
 
 .head_nav_ul {
   list-style: none;
@@ -218,3 +229,20 @@ header {
   -ms-flex-pack: center;
   justify-content: center;
   height: 85vh; }
+
+.header_row_text {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: white;
+  margin-top: 10px; }
+
+.button_submit-start {
+  background: #da331d;
+  border: none;
+  width: 10%;
+  font-size: 1.8rem;
+  padding: 5px;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 3px;
+  border-radius: 20px; }

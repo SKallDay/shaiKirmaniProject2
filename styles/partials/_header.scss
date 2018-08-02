@@ -8,18 +8,18 @@ header{
 .header_row{
     display: flex;  
     justify-content: space-between;
-    border:1px solid green;
+    // border:1px solid green;
     align-items: center;
     &_h2{
         color: white;
-        flex:1 1 30%;
-        border: 1px solid red;
+        flex:1 1 50%;
+        // border: 1px solid red;
     }
 }
 
 .head_nav{
-    flex: 3 1 70%;
-    border: 1px solid green;
+    flex: 3 1 50%;
+    // border: 1px solid green;
    
 }
 
@@ -46,4 +46,23 @@ header{
     flex-direction: column;
     justify-content: center;
     height: 85vh;
+}
+
+.header_row_text{
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 10px;
+}
+
+.button_submit-start{
+    background: $primary;
+    border: none;
+    width: 10%;
+    font-size: 1.8rem;
+    padding: 5px;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 3px;
+    border-radius: 20px;
 }
