@@ -11,35 +11,35 @@
 </head>
 <body>
     <!-- HEADER -->
-    <header>
+    <header class="header">
         <div class="wrapper">
-            <div class="top-nav">
-                <h2>Restaurant</h2>
+            <div class="header_row">
+                <h2 class="header_row_h2">Restaurant</h2>
 
                 <nav>
-                    <ul class="head-hav">
-                        <li>
-                            <a href="#">
+                    <ul class="head_nav">
+                        <li class="head_nav_item">
+                            <a class="head_nav_link" href="#">
                                 Home
                             </a>
                         </li>
-                        <li>
-                            <a href="#">
+                        <li class="head_nav_item">
+                            <a class="headnav_link" href="#">
                                 Menu
                             </a>
                         </li>
-                        <li>
-                            <a href="#">
+                        <li class="head_nav_item">
+                            <a class="head_nav_link" href="#">
                                 Blog
                             </a>
                         </li>
-                        <li>
-                            <a href="#">
+                        <li class="head_nav_item">
+                            <a class="head_nav_link" href="#">
                                 Contact
                             </a>
                         </li>
-                        <li>
-                            <a href="#">
+                        <li class="head_nav_item">
+                            <a class="head_nav_link" href="#">
                                 About
                             </a>
                         </li>
@@ -47,14 +47,14 @@
                 </nav>
             </div>
         </div>
-        <div class="welcome">
-            <h1>
+        <div class="header_row2">
+            <h1 class="header_row_h1">
                 Welcome
             </h1>
-            <p>To my Restaurant website</p>
+            <p class="header_row_text">To my Restaurant website</p>
 
             <label for="submit"> Submit - Start</label>
-            <input type="submit" class="submit" name="submit" placeholder="Submit">
+            <input type="submit" class="button_submit-start" name="submit" placeholder="Submit">
         </div>
     </header>
 
@@ -63,271 +63,349 @@
     
     <!-- SECTION ONE -->
     <main class="wrapper"> 
-        <div class="section-two">
-            <h2>We are ...</h2>
+
+        <section class="section_one">
+            <h2 class="section_one-h2">We are ...</h2>
         
             <!-- CONTAINER ONE -->
-            <div class="container-one">
-                <div class="item-container">
-                    <div class="item">
-                        <img src="" alt="">
-                        <p>Local</p>
-                    </div>
-                    <div class="item">
-                        <img src="" alt="">
-                        <p>Friendly</p>
-                    </div>
-                    <div class="item">
-                        <img src="" alt="">
-                        <p>Modern</p>
-                    </div>
-                    <div class="item">
-                        <img src="" alt="">
-                        <p>Delicious</p>
-                    </div>
+            <div class="section_one_container-one">
+                <div class="container_one-item">
+                    <img src="assets/image-2.jpeg" alt="preview of salad plate on wood table" class="container_one_item-img">
+                    <p class="container_one_item-text">Local</p>
                 </div>
+
+                <div class="container_one-item">
+                    <img src="assets/image-3.jpeg" alt="spices in a bowl" class="container_one_item-img">
+                    <p class="container_one_item-text">Friendly</p>
+                </div>
+
+                <div class="container_one-item">
+                    <img src="assets/image-4.jpeg" alt="woman in mustard color beanie smiling" class="container_one_item-img">
+                    <p class="container_one_item-text">Modern</p>
+                </div>
+
+                <div class="container_one-item">
+                    <img src="assets/image-5.jpeg" alt="picture of pancakes with maple syrup and berries" class="container_one_item-img">
+                    <p class="container_one_item-text">Delicious</p>
+                </div>
+            </div>
                 
-                <!-- TEXT CONTAINER - SECTION ONE -->
-                <div class="text-container-one">
-                    <h4>About us</h4>
+            <!-- CONTAINER TWO - SECTION ONE -->
+            <div class="section_one_container-two">
+                <h4 class="container_two-h4">About us</h4>
 
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                <p class="contain_two-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
 
-                    <label for="submit"> Submit - Start</label>
-                    <input type="submit" class="submit" name="submit" placeholder="More">
-
-                </div>
+                <label for="submit"> Submit - Start</label>
+                <input type="submit" class="button_submit-more" name="submit" placeholder="More">
 
             </div>
-        </div>
+
+        </section>
+
         <!-- SECTION TWO -->
-        <div class="section-two">
-            <h2>Welcome to restaurant</h2>
+        <section class="section_two">
+            <div class="wrapper">
+                <h2 class="section_two-h2">Welcome to restaurant</h2>
 
-            <p>Suspendisse convallis turpis sem, nec tincidunt mauris tincidunt sed. Nunc vulputate feli s eu nunc moletie molestie vel
-            tempus purus. Donec sed tellus mi. Fusce tincidunt tudin arcu, nec fringilla ex he rerit eget. Maecenas fringilla neque eu
-            est tincon. Vivamus consequat variusimperdiet. Mauris laoreet risus pharetra ollis.</p>
+                <p class="section_two-text">Suspendisse convallis turpis sem, nec tincidunt mauris tincidunt sed. Nunc vulputate feli s eu nunc moletie molestie vel
+                tempus purus. Donec sed tellus mi. Fusce tincidunt tudin arcu, nec fringilla ex he rerit eget. Maecenas fringilla neque eu
+                est tincon. Vivamus consequat variusimperdiet. Mauris laoreet risus pharetra ollis.</p>
 
-            <label for="submit"> Submit - Start</label>
-            <input type="submit" class="submit" name="submit" placeholder="View">
-    
-        </div>
+                <label for="submit"> Submit - Start</label>
+                <input type="submit" class="button_submit-view" name="submit" placeholder="View">
+
+            </div>
+        </section>
+
         <!-- SECTION THREE -->
-        <div class="section-three">
-            <h2>services</h2>
+        <section class="section_three">
+            <div class="wrapper">
+                <h2 class="section_three-h2">services</h2>
 
 
-            <div class="section-three-container">
-                <div class="box">
-                    <h4>custom catering</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud.</p>
-                </div>
-                <div class="box">
-                    <img src="" alt="">
-                </div>
-                <div class="box">
-                    <img src="" alt="">
-                </div>
-                <div class="box">
-                    <h4>event bookings</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud.</p>
+                <div class="section_three_container">
+
+                    <div class="section_three_container_item">
+                        <h4 class="section_three_container-h4">custom catering</h4>
+                        <p class="section_three_container-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud.</p>
+                    </div>
+
+                    <div class="section_three_container_item">
+                        <img src="assets/image-6.jpeg" alt="pictures of bar- wooden table top and tall bar stools" class="section_three-img">
+                    </div>
+
+                    <div class="section_three_container_item">
+                        <img src="assets/image-7.jpeg" alt="salmon on a bed of mashed potatos and veggie" class="section_three-img">
+                    </div>
+
+                    <div class="section_three_container_item">
+                        <h4 class="section_three_container-h4">event bookings</h4>
+                        <p class="section_three_container-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud.</p>
+                    </div>
+
                 </div>
             </div>
-        </div>
+        </section>
+        
         <!-- REVIEW SECTION -->
-        <div class="reviews">
-            <h2>reviews</h2>
+        <section class="reviews">
+            <div class="wrapper">
+                <h2 class="reviews-h2">reviews</h2>
 
-            <div class="review-container">
-                <i class="fas fa-angle-left"></i>
-                <img src="" alt="">
-                <i class="fas fa-angle-right"></i>
+                <div class="reviews_container">
+                    <i class="fas fa-angle-left reviews_container-icon"></i>
+                    <img src="assets/image-8.jpeg" alt="photo of man in resturant with plants in background" class="review_container-img">
+                    <i class="fas fa-angle-right reviews_container-icon"></i>
+                </div>
+
+                <blockquote class="reviews_container-blockquote">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                    non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+                    <br>
+                    ~ J. Michels ~
+                </blockquote>
             </div>
-
-            <blockquote>
-                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
-                <br>
-                 ~ J. Michels ~
-            </blockquote>
-        </div>
+        </section>
     </main>
 
     <!-- EVENT SECTION / SECTION FOUR -->
     <section class="events">
-        <h2>events</h2>
 
-        <div class="events-container">
-            <div class="event-item">
-                <div class="overlay">
-                    <img src="" alt="">
-                    <h2>Sample event</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-                </div>
-            </div>
-            <div class="event-item">
-                <img src="" alt="">
-                <h2>Sample event</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-            </div>
-            <div class="event-item">
-                <img src="" alt="">
-                <h2>Sample event</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-            </div>
+        <div class="wrapper">
+            <h2 class="events-h2">events</h2>
         </div>
 
-        <div class="event-question">
-            <h2>ask a question</h2>
-            <label for="question">Enter your question here</label>
-            <input type="text" name="your-msg" placeholder="your message">
+        <!-- FULL BANNER - NO WRAPPER FIGURES WITH OVERLAY -->
+        <div class="events_container">
 
-            <label for="submit"> Submit - Start</label>
-            <input type="submit" class="submit" name="send" placeholder="Send">
+            <figure class="event_container-figure">
+                <img src="assets/image-9.jpeg" alt="picture of burgers on plate with sides" class="event_container_figure-item">
+                <figcaption class="event_container_figure-caption">
+                    <h2 class="event_container_figure-h2">Sample event</h2>
+                    <p class="event_container_figure-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                </figcaption>
+            </figure>
+
+            <figure class="event_container-figure">
+                <img src="assets/image-10.jpeg" alt="photo of garnola with yougurts and berries" class="event_container_figure-item">
+                <figcaption class="event_container_figure-caption">
+                    <h2 class="event_container_figure-h2">Sample event</h2>
+                    <p class="event_container_figure-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                </figcaption>
+            </figure>
+
+            <figure class="event_container-figure">
+                <img src="assets/image-11.jpeg" alt="photo of the kitchen and chefs" class="event_container_figure-item">
+                <figcaption class="event_container_figure-caption">
+                    <h2 class="event_container_figure-h2">Sample event</h2>
+                    <p class="event_container_figure-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                </figcaption>
+            </figure>
+               
+        </div>
+
+        <!-- EVENTS - QUESTION SECTION -->
+        <div class="wrapper">
+            <div class="event_container_question">
+                <h2 class="event_container_question-h2">ask a question</h2>
+                <label for="question">Enter your question here</label>
+                <input type="text" name="your-msg" placeholder="your message" class="event_container_question-input">
+
+                <label for="submit"> Submit - Start</label>
+                <input type="submit" class="button_submit-send" name="send" placeholder="Send">
+            </div>
         </div>
 
     </section>
 
     <!-- SECTION FIVE -->
-    <section class="section-five">
+    <section class="section_five">
         <div class="wrapper">
-            <div class="info">
-                <i class="fas fa-check-square"></i>
-                <p class="bold">16</p>
-                <p>Years Open</p>
-            </div>
-            <div class="info">
-                <i class="fas fa-smile"></i>
-                <p class="bold">180</p>
-                <p>Happy Customers</p>
-            </div>
-            <div class="info">
-                <i class="fas fa-calendar"></i>
-                <p class="bold">12</p>
-                <p>World Class Cooks</p>
-            </div>
-            <div class="info">
-                <i class="fas fa-trophy"></i>
-                <p class="bold">55</p>
-                <p>Awards</p>
+            <div class="section_five_container">
+
+                <div class="section_five-item">
+                    <i class="fas fa-check-square section_five_item-icon"></i>
+                    <p class="section_five_item_text-bold">16</p>
+                    <p class="section_five_item-text">Years Open</p>
+                </div>
+
+                <div class="section_five-item">
+                    <i class="fas fa-smile section_five_item-icon"></i>
+                    <p class="section_five_item_text-bold">180</p>
+                    <p class="section_five_item-text">Happy Customers</p>
+                </div>
+
+                <div class="section_five-item">
+                    <i class="fas fa-calendar"></i>
+                    <p class="section_five_item_text-bold">12</p>
+                    <p class="section_five_item-text">World Class Cooks</p>
+                </div>
+
+                <div class="section_five-item">
+                    <i class="fas fa-trophy"></i>
+                    <p class="section_five_item_text-bold">55</p>
+                    <p class="section_five_item-text">Awards</p>
+                </div>
+
             </div>
         </div>
     </section>
 
     <!-- SECTION SIX -->
-    <section class="section-six">
-        <div class="wrpper">
-            <h2>our blog</h2>
+    <section class="section_six">
+        <div class="wrapper">
+            <h2 class="section_six-h2">our blog</h2>
 
-            <div class="section-six-container">
-                <div class="blog-item">
-                    <p class="bold">Popular Steak Cuts</p>
-                    <a href="#" class="read-more">
-                        Read More
-                        <i class="fas fa-angle-double-right"></i>
-                    </a>
+            <div class="section_six_container">
+
+                <div class="section_six_container_item">
+                    <figure class="section_six_container_item-figure">
+                        <img src="assets/image-12.jpeg" alt="photo of bloody steak" class="section_six_figure-img">
+                    </figure>
+                    <figcaption class="section_six_item-figcaption">
+                        <p class="section_six_figcaption_text-bold">Popular Steak Cuts</p>
+                        <a href="#" class="section_six_figcaption-read-more">
+                            Read More
+                            <i class="fas fa-angle-double-right" class="section_six_figcaption-icon"></i>
+                        </a>
+                    </figcaption>
                 </div>
-                <div class="blog-item">
-                    <p class="bold">Reservations are Booming!</p>
-                    <a href="#" class="read-more">
-                        Read More
-                        <i class="fas fa-angle-double-right"></i>
-                    </a>
+
+                <div class="section_six_container_item">
+                    <figure class="section_six_container_item-figure">
+                        <img src="assets/image-13.jpeg" alt="photo of nicely set table" class="section_six_figure-img">
+                    </figure>
+                    <figcaption class="section_six_item-figcaption">
+                        <p class="section_six_figcaption_text-bold">Reservations are Booming!</p>
+                        <a href="#" class="section_six_figcaption-read-more">
+                            Read More
+                            <i class="fas fa-angle-double-right" class="section_six_figcaption-icon"></i>
+                        </a>
+                    </figcaption>
                 </div>
-                <div class="blog-item">
-                    <p class="bold">Wine Tasting Events</p>
-                    <a href="#" class="read-more">
-                        Read More
-                        <i class="fas fa-angle-double-right"></i>
-                    </a>
+                
+                <div class="section_six_container_item">
+                    <figure class="section_six_container_item-figure">
+                        <img src="assets/image-14.jpeg" alt="photo of people cheersing with wine glasses" class="section_six_figure-img">
+                    </figure>
+                    <figcaption class="section_six_item-figcaption">
+                        <p class="section_six_figcaption_text-bold">Wine Tasting Events</p>
+                        <a href="#" class="section_six_figcaption-read-more">
+                            Read More
+                            <i class="fas fa-angle-double-right" class="section_six_figcaption-icon"></i>
+                        </a>
+                    </figcaption>
                 </div>
+
             </div>
         </div>
     </section>
 
     <!-- FOOTER -->
-    <footer>
+    <footer class="footer">
         <div class="wrapper">
-            <div class="foot-container-one">
-                <div class="footer-item">
-                    <h3>Contact</h3>
-                    <ul class="foot-info">
-                    <li>
-                        <a href=""></a>
+            <div class="footer_container-one">
+
+                <div class="footer_contact-nav">
+                    <h4 class="contact_nav-h4">Contact</h4>
+
+                    <ul class="contact_nav">
+                    <li class="contact_nav_item">
+                        <a href="#" class="contact_nav_item-link">
+                            <i class="far fa-envelope"></i> info@hackeryou.com
+                        </a>
                     </li>
-                    <li>
-                        <a href=""></a>
+                    <li class="contact_nav_item">
+                        <a href="#" class="contact_nav_item-link">
+                            <i class="fas fa-phone"></i> 416 123 3210
+                        </a>
                     </li>
-                    <li>
-                        <a href=""></a>
+                    <li class="contact_nav_item">
+                        <a href="#" class="contact_nav_item-link">
+                            <i class="fas fa-map-marker-alt"></i> Toronto, Ontario
+                        </a>
                     </li>
                     </ul>
 
                     <label for="email" name="your email" ></label>
-                    <input type="email" name="email" placeholder="your email" class="foot-email">
+                    <input type="email" name="email" placeholder="your email" class="foot_container_email">
                 </div>
-                <div class="footer-item">
-                    <h3>About us</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+                <div class="footer_container-one_info">
+                    <h3 class="footer_info-h3">About us</h3>
+                    <p class="footer_info-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
-                <div class="footer-item">
-                    <h3>instagram</h3>
-                    <div class="foot-img-container">
-                        <img src="" alt="">
-                        <img src="" alt="">
-                        <img src="" alt="">
-                        <img src="" alt="">
-                        <img src="" alt="">
-                        <img src="" alt="">
+
+                <div class="footer_container-one_gallery">
+                    <h3 class="footer_gallery-h3">instagram</h3>
+                    <div class="footer_gallery_container">
+                        <img src="assets/image-15.jpeg" alt="close up photo of the pasta">
+                        <img src="assets/image-16.jpeg" alt="picture of table setting - multiple plates and forks">
+                        <img src="assets/image-17.jpeg" alt="picutres of several meals on table">
+                        <img src="assets/image-18.jpeg" alt="photo of two plates of pasta">
+                        <img src="assets/image-19.jpeg" alt="photo of plate of pasta with wine">
+                        <img src="assets/image-20.jpeg" alt="photo of burger">
                     </div>
                 </div>
             </div>
 
             <!-- FOOT CONTAINER 2 -->
-            <div class="foot-container-two">
-                <h2>restaurant</h2>
-                <ul class="foot-nav"> 
-                    <li>
-                        <a href="#">Home</a>
+            <div class="footer_container-two">
+
+                <h2 class="footer_container_two-h2">restaurant</h2>
+                <ul class="footer_container_two-nav--long"> 
+                    <li class="footer_container_two-item">
+                        <a href="#" class="footer_container_two-item-link">
+                            Home
+                        </a>
                     </li>
-                    <li>
-                        <a href="#">Menu</a>
+                    <li class="footer_container_two-item">
+                        <a href="#" class="footer_container_two-item-link">
+                            Menu
+                        </a>
                     </li>
-                    <li>
-                        <a href="#">blog</a>
+                    <li class="footer_container_two-item">
+                        <a href="#" class="footer_container_two-item-link">
+                          Blog
+                        </a>
                     </li>
-                    <li>
-                        <a href="#">contact</a>
+                    <li class="footer_container_two-item">
+                        <a href="#" class="footer_container_two-item-link">
+                            contact
+                        </a>
                     </li>
-                    <li>
-                        <a href="#">about us</a>
+                    <li class="footer_container_two-item">
+                        <a href="#" class="footer_container_two-item-link">
+                            about us
+                        </a>
                     </li>
                 </ul>
 
-                <p class="foot-note">
+                <p class="footer_container_two-text">
                      2018 All rights reserved ©
                 </p>
             </div>
 
         </div>
 
-        <div class="foot-social-nav">
-            <ul class="social-nav">
-                <li>
-                    <a href="#">
+        <div class="footer_container_side">
+            <ul class="footer_social-nav">
+                <li class="foot_soical_nav-item">
+                    <a href="#" class="footer_social_nav_item-link">
                         <i class="fab fa-facebook-square"></i>
                     </a>
                 </li>
-                <li>
-                    <a href="#">
+                <li class="foot_soical_nav-item">
+                    <a href="#" class="footer_social_nav_item-link">
                         <i class="fab fa-instagram"></i>
                     </a>
                 </li>
-                <li>
-                    <a href="#">
+                <li class="foot_soical_nav-item">
+                    <a href="#" class="footer_social_nav_item-link">
                         <i class="fab fa-pinterest-p"></i>
                     </a>
                 </li>
