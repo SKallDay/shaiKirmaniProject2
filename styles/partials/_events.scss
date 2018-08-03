@@ -1,3 +1,7 @@
+.event_container_question{
+    padding: 40px;
+    height: 40vh;
+}
 .events-h2{
     text-align: center;
     text-transform: uppercase;  
@@ -36,4 +40,35 @@
 
 .event_container_figure-text{
     font-size: 1.7rem;
+}
+// 
+// QUESTION SECTION
+// 
+
+.event_container_question{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.event_container_question-h2{
+    text-transform: uppercase;
+}
+
+.event_container_question-input{
+    border: none;
+    border-bottom: 1px solid grey;
+    width: 50%;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.event_container_question-input::placeholder{
+    font-size: 1.7rem;
+    text-transform: capitalize;
+}
+
+.event_container_question .button_submit-start{
+    margin: 30px 0px 20px 0px;
 }
