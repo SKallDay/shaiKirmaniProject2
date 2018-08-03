@@ -1,0 +1,213 @@
+.section_one{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section_one-h2{
+    flex:1 1 100%;
+    text-transform: uppercase;
+}
+
+.section_one_container-one{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0 60px;
+    // width: calc 
+    // border: 1px solid red;
+    flex: 1 1 calc(50% - 120px);
+    margin-right: 0;
+    padding: 0 50px;
+    padding-right: 0;
+}
+
+.container_one-item{
+    margin: 20px;
+    flex:1 1 calc(50% - 40px);
+    // width: calc(50% - 40px);
+    
+}
+
+.container_one_item-text{
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.section_one_container-two{
+    margin: 0 20px;
+    padding: 40px;
+    // width: ;
+    flex: 1 1 calc(50% - 40px);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    // border: 1px solid red;
+    padding-left: 0;
+    align-items: center;
+}
+
+.container_two-h4{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.contain_two-text{
+    font-size: 2rem;
+    padding: 0 40px;
+}
+
+.section_one_container-two .button_submit-view{
+    background: $primary;
+    border: none;
+    width: 22%;
+    font-size: 1.8rem;
+    padding: 5px;
+    align-self: center;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 3px;
+    border-radius: 20px;
+}
+
+// 
+// SECTION TWO STARTS HERE
+// 
+
+.section_two{
+    background:$secondary;
+    height: 60vh;
+}
+
+.section_two_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_two-h2{
+    text-transform: uppercase;
+    margin-top: 60px;
+}
+
+.section_two-text{
+    margin: 20px;
+    padding: 30px;
+    font-size: 2rem;
+    text-align: center;
+    color:$third;
+}
+
+.button_submit-view{
+    border: none;
+    width: 12%;
+    font-size: 1.8rem;
+    padding: 5px;
+    align-self: center;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 3px;
+    border-radius: 20px;
+    background: $third;
+}
+
+// 
+// SECTION THREE STARTS HERE
+//
+.section_three_container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section_three-h2{
+    flex: 1 1 100%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.section_three_container-one{
+    margin: 20px 60px;
+    border:1px solid;
+    flex: 1 1 calc(80% - 120px);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section_three_container_item{
+    flex: 1 1 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_three_container-h4{
+    font-size: 2.3rem;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.section_three_container-text{
+    text-align: center;
+    padding: 10px 30px;
+    font-size: 1.8rem;
+}
+
+
+// 
+// SECTION FOUR - REVIEWS
+// 
+
+.reviews{
+    background: $third;
+    height: 60vh;
+}
+
+.reviews-h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: #a7a7a7;
+    margin: 50px 0px;
+}
+
+.review_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // border: 1px solid;
+}
+
+.reviews_container-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reviews_container-icon{
+    color: $white;
+    font-size: 4rem;
+    padding: 0 10px;
+    margin: 0 30px;
+}
+.reviews_container-blockquote{
+    color:#a7a7a7;
+    margin: 0 auto;
+    font-size: 1.6rem;
+    padding: 30px;
+    // flex: 0 1 40%;
+    width: 60%;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.review_blockquote-name{
+    margin: 20px;
+    font-size: 1.6rem,
+}
+
