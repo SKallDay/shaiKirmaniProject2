@@ -1,0 +1,30 @@
+// .section_six{
+//     height: 40vh;
+// }
+
+.section_six-h2{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 70px 0px 40px 0px;
+}
+
+.section_six_container{
+    display: flex;
+}
+
+.section_six_container_item{
+    margin: 10px;
+    flex: 1 1 calc((100 / 3) - 20px);
+}
+
+.section_six_figcaption_text-bold{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.section_six_figcaption-read-more{
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: $primary;
+}

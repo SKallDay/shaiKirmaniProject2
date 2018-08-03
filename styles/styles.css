@@ -644,3 +644,29 @@ header {
 .section_five_item-text {
   font-size: 2rem;
   margin-top: 0; }
+
+.section_six-h2 {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 70px 0px 40px 0px; }
+
+.section_six_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.section_six_container_item {
+  margin: 10px;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 calc((100 / 3) - 20px);
+  flex: 1 1 calc((100 / 3) - 20px); }
+
+.section_six_figcaption_text-bold {
+  font-size: 2rem;
+  font-weight: bold; }
+
+.section_six_figcaption-read-more {
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #da331d; }
