@@ -1,0 +1,31 @@
+.section_five{
+    background: $secondary;
+    height: 40vh;
+}
+
+.section_five_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0px;
+}
+
+.section_five-item{
+   text-align: center;
+   margin: 0 auto;
+}
+
+.section_five_item-icon{
+    font-size: 5rem;
+}
+
+.section_five_item_text-bold{
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 8px;
+}
+
+.section_five_item-text{
+    font-size: 2rem;
+    margin-top: 0;
+}
