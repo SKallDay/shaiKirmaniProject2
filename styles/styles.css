@@ -171,7 +171,8 @@ a {
 .contain_two-text,
 .section_two-text,
 .section_three_container-text,
-.reviews_container-blockquote {
+.reviews_container-blockquote,
+.event_container_figure-text {
   font-family: 'Lora', serif; }
 
 .wrapper {
@@ -180,7 +181,8 @@ a {
   border: 1px solid red; }
 
 img {
-  max-width: 100%; }
+  max-width: 100%;
+  display: block; }
 
 header {
   background-image: url(../assets/image-1.jpeg);
@@ -498,3 +500,39 @@ header {
 .review_blockquote-name {
   margin: 20px;
   font-size: 1.6rem; }
+
+.events-h2 {
+  text-align: center;
+  text-transform: uppercase; }
+
+.events_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.event_container-figure {
+  position: relative; }
+
+.event_container_figure-caption {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  padding: 40px;
+  color: white;
+  background: rgba(42, 42, 42, 0.9);
+  display: none; }
+
+.event_container-figure:hover .event_container_figure-caption {
+  display: block; }
+
+.event_container_figure-h2 {
+  margin: 0 50px;
+  padding: 20px;
+  text-transform: uppercase;
+  border-bottom: 2px solid white; }
+
+.event_container_figure-text {
+  font-size: 1.7rem; }

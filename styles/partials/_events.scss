@@ -1,0 +1,39 @@
+.events-h2{
+    text-align: center;
+    text-transform: uppercase;  
+}
+
+.events_container{
+    display: flex;
+}
+
+.event_container-figure{
+    position: relative;
+}
+
+.event_container_figure-caption{
+    @include position(absolute, 0, 0, 0, 0); 
+    text-align: center;
+    padding: 40px;
+    color: $white;
+    background: $linear;
+    display: none;
+    // &:hover{
+    //     display: block;
+    // }
+}
+
+.event_container-figure:hover .event_container_figure-caption{
+    display: block;
+}
+
+.event_container_figure-h2{
+    margin: 0 50px;
+    padding:20px;
+    text-transform: uppercase;
+    border-bottom: 2px solid white;
+}
+
+.event_container_figure-text{
+    font-size: 1.7rem;
+}
