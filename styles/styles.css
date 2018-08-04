@@ -354,9 +354,9 @@ header {
 .section_one_container-two {
   margin: 0 20px;
   padding: 40px;
-  -webkit-box-flex: 1;
-  -ms-flex: 1 1 calc(50% - 40px);
-  flex: 1 1 calc(50% - 40px);
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 calc(50% - 40px);
+  flex: 0 1 calc(50% - 40px);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -849,3 +849,20 @@ header {
 .footer_side_social-icon {
   font-size: 2rem;
   color: #848484; }
+
+@media (max-width: 1110px) {
+  .header_row,
+  .header_row2 {
+    padding: 0px 30px; }
+  .section_one_container-one {
+    padding: 0px; }
+  .event_container_figure-caption {
+    padding: 0px 20px; }
+  .event_container_figure-h2 {
+    margin: 0px 20px; }
+  .section_six_container {
+    padding: 0px 20px; }
+  .footer_gallery_item {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 20%;
+    flex: 0 1 20%; } }
