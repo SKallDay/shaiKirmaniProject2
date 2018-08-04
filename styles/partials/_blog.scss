@@ -1,6 +1,6 @@
-// .section_six{
-//     height: 40vh;
-// }
+.section_six{
+    padding-bottom: 50px;
+}
 
 .section_six-h2{
     text-align: center;
@@ -15,6 +15,7 @@
 .section_six_container_item{
     margin: 10px;
     flex: 1 1 calc((100 / 3) - 20px);
+    padding: 5px;
 }
 
 .section_six_figcaption_text-bold{
@@ -23,7 +24,7 @@
 }
 
 .section_six_figcaption-read-more{
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: bold;
     text-transform: uppercase;
     color: $primary;
