@@ -1,0 +1,38 @@
+@media(max-width:910px){
+
+    .container_one-item{
+        margin: 0px 10px;
+        flex: 0 1 calc(50% - 20px);
+        padding:20px
+    }
+    .section_one_container-two{
+        padding: 20px;
+    }
+
+    .contain_two-text{
+        padding: 0;
+    }
+
+    .event_container_figure-h2{
+        padding: 10px;
+        font-size: 1.7rem;
+    }
+
+    .event_container_figure-text{
+        font-size: 1.5rem;
+    }
+
+    .footer_container{
+        flex-direction: column;
+    }
+
+    .footer_social-nav{
+        padding: 0;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .foot_soical_nav-item{
+        margin: 20px;
+    }
+}
