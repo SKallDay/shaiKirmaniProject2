@@ -1,0 +1,137 @@
+@media(max-width:600px){
+
+    .header{
+        position: relative;
+    }
+
+    .wrapper{
+        position: relative;
+    }
+
+    .head_nav{
+        position: absolute;
+        top:0;
+        right: 0;
+        left: 0;
+        background: $secondary;
+        top:-120%;
+        transition: all 5s;
+    }
+
+    .head_nav_ul{
+        padding: 10px;
+        margin: 20px;
+        justify-content: space-around;
+    }
+
+    .header_nav-label{
+        display: block;
+        position: absolute;
+        top:1%;
+        right: 2%;
+        font-size: 4rem;
+        cursor: pointer;
+    }
+
+    // .header_nav-hamburger-icon{
+    //     display: block;
+    // }
+
+    input#hamburg:checked + .head_nav{
+        top: 0%;
+    }
+
+    // SECTION ONE
+
+    .section_one-h2{
+        margin-bottom: 20px;
+    }
+
+    .section_one_container-one{
+        display: none;
+    }
+
+    .container_two-h4{
+        display: none;
+    }
+
+    .section_two-text{
+        padding-top: 0;
+    }
+
+    .section_two-text{
+        padding-bottom: 10px;
+    }
+
+    .button_submit-view{
+        width: 15%;
+    }
+
+    // SECTION THREE
+    .section_three_container-one{
+        margin-top: 0;
+    }
+
+    .section_three_container_item{
+        flex: 1 1 100%;
+        margin: 20px;
+    }
+
+    .section_three_container-text{
+        padding: 0;
+    }
+
+    // SECTION FOUR
+
+    .events-h2{
+        display: none;
+    }
+
+    // SECTION SIX
+
+    .section_six_container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section_six_container_item{
+        margin: 0 40px;
+        width: calc(100% - 80px);
+
+    }
+
+    .section_six_container_item-figure{
+        display: flex;
+        flex-direction: column;
+        margin: 10px 50px;
+    }
+
+    .section_six_item-figcaption{
+        text-align: center;
+    }
+
+    // FOOTER
+
+    .footer_container .wrapper{
+        max-width: 400px;
+        margin: 0px 95px;
+    }
+
+    .footer_contact-nav{
+        flex-basis: 100%;
+        text-align: center;
+    }
+
+    .footer_container-one_info{
+        display: none;
+
+    }
+
+    .footer_container-one_gallery{
+        display: none;
+    }
+
+    .foot_container_email::placeholder{
+        text-align: center;
+    }
+}

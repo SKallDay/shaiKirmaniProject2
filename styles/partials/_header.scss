@@ -28,8 +28,9 @@
     list-style: none;
     display: flex;
     justify-content: space-between;
-
+   
 }
+
 
 .head_nav_item{
     margin: 5px;
@@ -41,7 +42,24 @@
     color:white;
     font-size: 1.7rem;
     text-transform: uppercase;
+    &:hover{
+        color: $fourth;
+    }
 }
+
+// MOBILE NAV
+
+.header_nav-label{
+    font-size: 3rem;
+    color: $white;
+    display: none;
+}
+
+.header_nav-hamburger-icon{
+    display: none;
+}
+
+// HEADER ROW TWO
 
 .header_row2{
     display: flex;
@@ -67,4 +85,8 @@
     color: white;
     letter-spacing: 3px;
     border-radius: 20px;
+    &:hover{
+        background: $secondary;
+    }
 }
+

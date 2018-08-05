@@ -141,4 +141,7 @@
 .footer_side_social-icon{
     font-size: 2rem;
     color: $fourth;
+    &:hover{
+        color:$white;
+   }
 }

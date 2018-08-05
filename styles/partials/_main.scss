@@ -68,7 +68,7 @@
 .section_one_container-two .button_submit-view{
     background: $primary;
     border: none;
-    width: 22%;
+    width: 20%;
     font-size: 1.8rem;
     padding: 5px;
     align-self: center;
@@ -76,6 +76,9 @@
     color: white;
     letter-spacing: 3px;
     border-radius: 20px;
+    &:hover{
+        background:$secondary;
+    }
 }
 
 // 
@@ -109,7 +112,7 @@
 
 .button_submit-view{
     border: none;
-    width: 12%;
+    width: 10%;
     font-size: 1.8rem;
     padding: 5px;
     align-self: center;
@@ -118,6 +121,9 @@
     letter-spacing: 3px;
     border-radius: 20px;
     background: $third;
+    &:hover{
+        background: $primary;
+    }
 }
 
 // 
