@@ -1,0 +1,43 @@
+@media(max-width:785px){
+
+    .header{
+        background-position: right;
+    }
+
+    .button_submit-start{
+        width: 15%;
+    }
+
+// SETION ONE
+
+    .section_one{
+        flex-direction: column;
+    }
+    .section_one_container-one{
+        margin:0 auto;
+        width:70%;
+        // padding-left: 40px;
+    }
+
+    .container_one-item{
+        padding: 0px 60px;
+    }
+
+    .section_one_container-two{
+        padding-bottom: 50px;
+    }
+
+// SECTION THREE SERVIES
+    .section_three_container-text{
+        margin-bottom:10px;
+    }
+
+// EVENTS
+    .event_container-figure:hover .event_container_figure-caption{
+        display: none;
+    }
+// FOOTER 
+    .footer_container-two{
+        display: none;
+    }
+}
