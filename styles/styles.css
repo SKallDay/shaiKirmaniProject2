@@ -947,12 +947,8 @@ img {
     display: none; } }
 
 @media (max-width: 600px) {
-  .header {
-    position: relative; }
-  .wrapper {
-    position: relative; }
   .head_nav {
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     left: 0;
@@ -960,7 +956,8 @@ img {
     top: -120%;
     -webkit-transition: all 5s;
     -o-transition: all 5s;
-    transition: all 5s; }
+    transition: all 5s;
+    z-index: 99999; }
   .head_nav_ul {
     padding: 10px;
     margin: 20px;
@@ -968,11 +965,12 @@ img {
     justify-content: space-around; }
   .header_nav-label {
     display: block;
-    position: absolute;
+    position: fixed;
     top: 1%;
     right: 2%;
     font-size: 4rem;
-    cursor: pointer; }
+    cursor: pointer;
+    z-index: 99999; }
   input#hamburg:checked + .head_nav {
     top: 0%; }
   .section_one-h2 {
@@ -1047,3 +1045,60 @@ img {
     text-align: center; }
   .foot_container_email::placeholder {
     text-align: center; } }
+
+@media (max-width: 450px) {
+  .header {
+    background-position: 90%; }
+  .button_submit-start {
+    width: 23%; }
+  .header_nav-label {
+    top: 2%; }
+  .head_nav_ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 50px;
+    margin: 20px; }
+  .head_nav_item:hover {
+    border-bottom: 2px solid #da331d; }
+  .section_one_container-two {
+    padding-top: 0; }
+  .contain_two-text {
+    font-size: 1.7rem; }
+  .section_one_container-two .button_submit-view {
+    width: 23%; }
+  .section_two-text {
+    font-size: 1.7rem; }
+  .button_submit-view {
+    width: 20%; }
+  .section_three {
+    padding-top: 30px; }
+  .section_three-h2 {
+    margin: 10px 0px; }
+  .section_three_container-h4 {
+    font-size: 2rem; }
+  .section_three_container_item {
+    margin: 8px; }
+  .section_three_container-text {
+    font-size: 1.7rem; }
+  .review_inner_container {
+    padding-top: 20px; }
+  .reviews_container-blockquote {
+    padding: 20px;
+    padding-bottom: 0; }
+  .events_container {
+    display: none; }
+  .section_five {
+    height: 60vh; }
+  .section_five_container {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+  .section_five-item {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 30%;
+    flex: 1 1 30%;
+    margin: 10px; }
+  .section_six-h2 {
+    margin-top: 40px; } }

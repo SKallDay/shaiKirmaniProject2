@@ -1,21 +1,22 @@
 @media(max-width:600px){
 
-    .header{
-        position: relative;
-    }
+    // .header{
+    //     position: relative;
+    // }
 
-    .wrapper{
-        position: relative;
-    }
+    // .wrapper{
+    //     position: relative;
+    // }
 
     .head_nav{
-        position: absolute;
+        position: fixed;
         top:0;
         right: 0;
         left: 0;
         background: $secondary;
         top:-120%;
         transition: all 5s;
+        z-index: 99999;
     }
 
     .head_nav_ul{
@@ -26,11 +27,12 @@
 
     .header_nav-label{
         display: block;
-        position: absolute;
+        position: fixed;
         top:1%;
         right: 2%;
         font-size: 4rem;
         cursor: pointer;
+        z-index: 99999;
     }
 
     // .header_nav-hamburger-icon{

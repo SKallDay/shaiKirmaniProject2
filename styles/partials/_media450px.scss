@@ -1,0 +1,104 @@
+@media(max-width:450px){
+// HEADER 
+.header{
+    background-position: 90%;
+    // background:linear-gradient(to right, pink, red, .9);
+}
+
+.button_submit-start{
+    width: 23%;
+}
+
+.header_nav-label{
+    top:2%;
+}
+
+.head_nav_ul{
+    flex-direction: column;
+    text-align: center;
+    padding: 0 50px;
+    margin: 20px;
+}
+
+.head_nav_item:hover{
+        border-bottom: 2px solid $primary;
+    }
+
+ // SECTION ONE 
+
+ .section_one_container-two{
+     padding-top:0;
+ }
+
+ .contain_two-text{
+     font-size: 1.7rem;
+ }
+
+.section_one_container-two .button_submit-view{
+    width: 23%;
+}
+// SECTION TWO
+
+.section_two-text{
+    font-size: 1.7rem;
+}
+.button_submit-view{
+    width: 20%;
+}
+// SECTION THREE
+
+.section_three{
+    padding-top: 30px;
+}
+
+.section_three-h2{
+    margin: 10px 0px;
+}
+
+.section_three_container-h4{
+    font-size: 2rem;
+}
+
+.section_three_container_item{
+    margin: 8px;
+}
+
+.section_three_container-text{
+    font-size: 1.7rem;
+}
+
+// SECTION FOUR - REVIEWS
+
+.review_inner_container{
+    padding-top: 20px;
+}
+
+.reviews_container-blockquote{
+    padding:20px;
+    padding-bottom: 0;
+}
+
+.events_container{
+    display: none;
+}
+
+// SECTION FIVE 
+.section_five{
+    height: 60vh;
+}
+.section_five_container{
+    flex-wrap: wrap;
+}
+
+.section_five-item{
+    flex: 1 1 30%;
+    margin: 10px;
+}
+
+// SECTION SIX
+
+.section_six-h2{
+    margin-top: 40px;
+}
+}
+
