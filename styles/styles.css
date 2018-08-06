@@ -998,6 +998,8 @@ img {
     padding: 0; }
   .events-h2 {
     display: none; }
+  .section_five_container {
+    margin: 30px 40px; }
   .section_six_container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1021,12 +1023,14 @@ img {
   .section_six_item-figcaption {
     text-align: center; }
   .footer_container .wrapper {
-    max-width: 400px;
-    margin: 0px 95px; }
+    margin: 0 50px;
+    width: calc(100% - 100px); }
   .footer_contact-nav {
     -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
     text-align: center; }
+  .foot_container_email {
+    width: 80%; }
   .footer_container-one_info {
     display: none; }
   .footer_container-one_gallery {

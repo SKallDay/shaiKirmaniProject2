@@ -87,6 +87,12 @@
         display: none;
     }
 
+    // SECTION FIVE
+
+    .section_five_container{
+        margin: 30px 40px;
+    }
+
     // SECTION SIX
 
     .section_six_container{
@@ -113,13 +119,18 @@
     // FOOTER
 
     .footer_container .wrapper{
-        max-width: 400px;
-        margin: 0px 95px;
+        margin: 0 50px;
+        width: calc(100% - 100px);
     }
 
     .footer_contact-nav{
+        // flex: 2 0 100%;
         flex-basis: 100%;
         text-align: center;
+    }
+
+    .foot_container_email{
+        width: 80%;
     }
 
     .footer_container-one_info{
