@@ -1000,6 +1000,10 @@ img {
     display: none; }
   .section_five_container {
     margin: 30px 40px; }
+  .section_five-item {
+    margin: 0 10px; }
+  .section_five_item-text {
+    font-size: 1.5rem; }
   .section_six_container {
     display: -webkit-box;
     display: -ms-flexbox;
