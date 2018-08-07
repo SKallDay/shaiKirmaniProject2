@@ -1,0 +1,42 @@
+@media(max-width:401px){
+
+    .section_one-h2,
+    .section_two-h2,
+    .section_three-h2,
+    .reviews-h2,
+    .event_container_question-h2{
+        margin:20px;
+        font-size: 2rem;
+    }
+    .contain_two-text,
+    .section_two-text,
+    .section_three_container-text,
+    .reviews_container-blockquote{
+        font-size: 1.5rem;
+    }
+    .section_one_container-two .button_submit-view{
+        width: 30%;
+    }
+
+    .button_submit-view{
+        width: 25%;
+    }
+
+    .section_two{
+        height: 52vh;
+        padding-top: 20px;
+    }
+
+    .section_two-text{
+        margin-top: 0;
+    }
+
+    .section_three_container-h4{
+        margin-top: 0;
+        font-size: 1.6rem;
+    }
+
+    .button_submit-start{
+        width: 30%;
+    }
+}
