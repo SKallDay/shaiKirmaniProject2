@@ -143,3 +143,9 @@
         text-align: center;
     }
 }
+
+@media(max-width:500px){
+    .section_two-text{
+        font-size: 1.7rem;
+    }
+}

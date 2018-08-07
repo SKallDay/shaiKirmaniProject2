@@ -1101,6 +1101,10 @@ img {
   .foot_container_email::placeholder {
     text-align: center; } }
 
+@media (max-width: 500px) {
+  .section_two-text {
+    font-size: 1.7rem; } }
+
 @media (max-width: 450px) {
   .header {
     background-image: linear-gradiet(to bottom, rgba(114, 116, 106, 0.7), rgba(114, 116, 106, 0.7)) url(/assets/image-1.jpeg);
