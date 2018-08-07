@@ -29,6 +29,7 @@
 
 // SECTION THREE SERVIES
     .section_three_container-text{
+        font-size: 1.5rem;
         margin-bottom:10px;
     }
 
@@ -39,5 +40,33 @@
 // FOOTER 
     .footer_container-two{
         display: none;
+    }
+}
+
+
+
+
+@media (max-width:705px){
+    .section_one_container-one{
+        display: none;
+    }
+
+    .contact_nav-h4,
+    .footer_info-h4,
+    .footer_info-text,
+    .contact_nav,
+    .foot_container_email::placeholder{
+        text-align: center;
+
+    }
+
+    .footer_container-one_gallery{
+        display: none;
+    }
+}
+
+@media(max-width:680px){
+    .section_three_container-one{
+        margin: 20px;
     }
 }
