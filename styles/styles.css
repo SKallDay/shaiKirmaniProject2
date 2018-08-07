@@ -770,9 +770,10 @@ img {
   width: 100%;
   background: #2a2a2a;
   padding: 10px;
-  background-image: url(.assets/paper-plane-regular.svg);
-  background-size: 10%;
-  background-repeat: no-repeat; }
+  background-image: url(../assets/paper-plane-regular.svg);
+  background-size: 5%;
+  background-repeat: no-repeat;
+  background-position: 95%; }
 
 .foot_container_email::-webkit-input-placeholder {
   color: white;

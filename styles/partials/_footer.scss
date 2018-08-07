@@ -46,9 +46,10 @@
     width: 100%;
     background: $third;
     padding: 10px;
-    background-image:url(.assets/paper-plane-regular.svg);
-    background-size: 10%;
+    background-image:url(../assets/paper-plane-regular.svg);
+    background-size: 5%;
     background-repeat: no-repeat;
+    background-position: 95%;
 }
 
 .foot_container_email::placeholder{
