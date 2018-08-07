@@ -1,5 +1,5 @@
 @media(max-width:910px){
-
+// SECTION ONE
     .container_one-item{
         margin: 0px 10px;
         flex: 0 1 calc(50% - 20px);
@@ -18,10 +18,14 @@
         font-size: 1.7rem;
     }
 
+
+// EVENTS SECTION
     .event_container_figure-text{
         font-size: 1.5rem;
     }
-
+    
+    
+// FOOTER
     .footer_container{
         flex-direction: column;
     }

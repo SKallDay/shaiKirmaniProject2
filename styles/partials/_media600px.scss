@@ -1,13 +1,5 @@
 @media(max-width:600px){
 
-    // .header{
-    //     position: relative;
-    // }
-
-    // .wrapper{
-    //     position: relative;
-    // }
-
     .head_nav{
         position: fixed;
         top:0;
@@ -34,10 +26,6 @@
         cursor: pointer;
         z-index: 99999;
     }
-
-    // .header_nav-hamburger-icon{
-    //     display: block;
-    // }
 
     input#hamburg:checked + .head_nav{
         top: 0%;
@@ -134,7 +122,6 @@
     }
 
     .footer_contact-nav{
-        // flex: 2 0 100%;
         flex-basis: 100%;
         text-align: center;
     }

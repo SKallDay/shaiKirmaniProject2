@@ -3,6 +3,8 @@
         background-position: 83%;
     }
 
+
+    // SECTIONE ONE
     .button_submit-start,
     .section_one_container-two .button_submit-view{
         width:40%;
@@ -12,6 +14,7 @@
         padding: 5px 5px 30px 5px;
     }
 
+    // SECTION TWO
     .section_two{
         height: 66vh;
     }
@@ -24,18 +27,22 @@
         width: 35%;
     }
 
+    // REVIEW
     .reviews{
         height: 66vh;
     }
 
+    // EVENTS
     .event_container_question{
         display: none;
     }
 
+    // SECTIONE FIVE
     .section_five_container{
         margin: 0;
     }
 
+    // SECTION SIX
     .section_six_container_item{
         margin: 0 10px;
         width: calc(100% - 20px);
@@ -45,6 +52,7 @@
         margin: 0;
     }
 
+    // FOOTER
     .foot_container_email{
         display: none;
     }

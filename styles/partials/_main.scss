@@ -15,8 +15,6 @@
     flex-wrap: wrap;
     flex-direction: row;
     margin: 0 60px 30px 60px;
-    // width: calc 
-    // border: 1px solid red;
     flex: 1 1 calc(50% - 120px);
     margin-right: 0;
     padding: 0 50px;
@@ -26,7 +24,6 @@
 .container_one-item{
     margin: 0px 20px;
     flex:1 1 calc(50% - 40px);
-    // width: calc(50% - 40px);
     display: flex;
     flex-direction: column;
     padding: 25px;
@@ -44,12 +41,10 @@
 .section_one_container-two{
     margin: 0 20px;
     padding: 40px;
-    // width: ;
     flex: 0 1 calc(50% - 40px);
     display: flex;
     flex-direction: column;
     text-align: center;
-    // border: 1px solid red;
     padding-left: 0;
     align-items: center;
 }
@@ -201,7 +196,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    // border: 1px solid;
 }
 
 .reviews_container-one{
@@ -221,7 +215,6 @@
     margin: 0 auto;
     font-size: 1.6rem;
     padding: 30px;
-    // flex: 0 1 40%;
     width: 60%;
     text-align: center;
     line-height: 1.5;

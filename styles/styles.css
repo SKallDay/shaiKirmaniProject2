@@ -873,6 +873,12 @@ img {
   .footer_side_social-icon:hover {
     color: white; }
 
+@media (max-width: 1320px) {
+  .event_container_figure-caption {
+    padding: 0px 20px; }
+  .event_container_figure-h2 {
+    margin: 0px 20px; } }
+
 @media (max-width: 1110px) {
   .header_row,
   .header_row2 {
@@ -889,6 +895,19 @@ img {
     -webkit-box-flex: 0;
     -ms-flex: 0 1 20%;
     flex: 0 1 20%; } }
+
+@media (max-width: 1025px) {
+  .event_container_figure-h2 {
+    margin: 0px 9px; }
+  .event_container_figure-text {
+    font-size: 1.5rem; } }
+
+@media (max-width: 950px) {
+  .event_container_figure-h2 {
+    padding: 10px;
+    font-size: 1.7rem; }
+  .event_container_figure-text {
+    font-size: 1.5rem; } }
 
 @media (max-width: 910px) {
   .container_one-item {

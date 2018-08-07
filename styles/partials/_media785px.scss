@@ -16,7 +16,6 @@
     .section_one_container-one{
         margin:0 auto;
         width:70%;
-        // padding-left: 40px;
     }
 
     .container_one-item{
@@ -45,6 +44,7 @@
 
 
 
+// MEDIA 705PX
 
 @media (max-width:705px){
     .section_one_container-one{
@@ -64,6 +64,8 @@
         display: none;
     }
 }
+
+// MEDIA 680PX
 
 @media(max-width:680px){
     .section_three_container-one{
