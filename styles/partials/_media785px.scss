@@ -76,3 +76,9 @@
         font-size: 1.3rem;
     }
 }
+
+@media(max-width:640px){
+    .section_two{
+        height: 64vh;
+    }
+}

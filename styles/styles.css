@@ -1005,6 +1005,10 @@ img {
   .section_six_figcaption_text-bold {
     font-size: 1.3rem; } }
 
+@media (max-width: 640px) {
+  .section_two {
+    height: 64vh; } }
+
 @media (max-width: 600px) {
   .head_nav {
     position: fixed;
@@ -1195,9 +1199,9 @@ img {
   .button_submit-start {
     width: 30%; } }
 
-@media (max-width: 320px) {
+@media (max-width: 335px) {
   .section_two {
-    height: 59vh; } }
+    height: 60vh; } }
 
 @media (max-width: 300px) {
   .header {
