@@ -36,9 +36,12 @@
     .event_container-figure:hover .event_container_figure-caption{
         display: none;
     }
+    
+    
     .event_container_question-input::placeholder,
     .foot_container_email::placeholder{
         line-height: 5px;
+        font-size: 1.2rem;
     }
 
 // FOOTER 

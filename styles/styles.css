@@ -970,16 +970,20 @@ img {
     display: none; }
   .event_container_question-input::-webkit-input-placeholder,
   .foot_container_email::-webkit-input-placeholder {
-    line-height: 5px; }
+    line-height: 5px;
+    font-size: 1.2rem; }
   .event_container_question-input:-ms-input-placeholder,
   .foot_container_email:-ms-input-placeholder {
-    line-height: 5px; }
+    line-height: 5px;
+    font-size: 1.2rem; }
   .event_container_question-input::-ms-input-placeholder,
   .foot_container_email::-ms-input-placeholder {
-    line-height: 5px; }
+    line-height: 5px;
+    font-size: 1.2rem; }
   .event_container_question-input::placeholder,
   .foot_container_email::placeholder {
-    line-height: 5px; }
+    line-height: 5px;
+    font-size: 1.2rem; }
   .footer_container-two {
     display: none; } }
 
