@@ -925,6 +925,8 @@ img {
     font-size: 1.7rem; }
   .event_container_figure-text {
     font-size: 1.5rem; }
+  .section_six_figcaption_text-bold {
+    font-size: 1.5rem; }
   .footer_container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -999,7 +1001,9 @@ img {
 
 @media (max-width: 680px) {
   .section_three_container-one {
-    margin: 20px; } }
+    margin: 20px; }
+  .section_six_figcaption_text-bold {
+    font-size: 1.3rem; } }
 
 @media (max-width: 600px) {
   .head_nav {
@@ -1190,6 +1194,10 @@ img {
     font-size: 1.6rem; }
   .button_submit-start {
     width: 30%; } }
+
+@media (max-width: 320px) {
+  .section_two {
+    height: 59vh; } }
 
 @media (max-width: 300px) {
   .header {
