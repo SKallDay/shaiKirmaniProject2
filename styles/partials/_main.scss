@@ -209,6 +209,9 @@
     font-size: 4rem;
     padding: 0 10px;
     margin: 0 30px;
+    &:hover{
+        color: $primary;
+    }
 }
 .reviews_container-blockquote{
     color:#a7a7a7;
