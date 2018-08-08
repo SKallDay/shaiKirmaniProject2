@@ -43,6 +43,10 @@
     .button_submit-start{
         width: 30%;
     }
+
+    .event_container_question-input::placeholder{
+        font-size: 1.5rem;
+    }
 }
 
 @media(max-width:335px){
