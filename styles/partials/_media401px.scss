@@ -49,8 +49,28 @@
     }
 }
 
-@media(max-width:335px){
+@media(max-width:375px){
     .section_two{
         height: 60vh;
+    }
+
+    .reviews{
+        height: 70vh;
+    }
+
+    .event_container_question{
+        display: none;
+    }
+    
+    .section_five_container{
+    margin-top: 0;
+    }
+    
+    .section_five{
+        height: 75vh;
+    }
+
+    .foot_container_email{
+        display: none;
     }
 }
