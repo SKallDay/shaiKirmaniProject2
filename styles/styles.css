@@ -1209,7 +1209,7 @@ img {
   .event_container_question-input::placeholder {
     font-size: 1.5rem; } }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .section_two {
     height: 60vh; }
   .reviews {
