@@ -36,6 +36,11 @@
     .event_container-figure:hover .event_container_figure-caption{
         display: none;
     }
+    .event_container_question-input::placeholder,
+    .foot_container_email::placeholder{
+        line-height: 2px;
+    }
+
 // FOOTER 
     .footer_container-two{
         display: none;
@@ -59,6 +64,8 @@
         text-align: center;
 
     }
+
+
 
     .footer_container-one_gallery{
         display: none;

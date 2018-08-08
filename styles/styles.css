@@ -968,6 +968,18 @@ img {
     margin-bottom: 10px; }
   .event_container-figure:hover .event_container_figure-caption {
     display: none; }
+  .event_container_question-input::-webkit-input-placeholder,
+  .foot_container_email::-webkit-input-placeholder {
+    line-height: 2px; }
+  .event_container_question-input:-ms-input-placeholder,
+  .foot_container_email:-ms-input-placeholder {
+    line-height: 2px; }
+  .event_container_question-input::-ms-input-placeholder,
+  .foot_container_email::-ms-input-placeholder {
+    line-height: 2px; }
+  .event_container_question-input::placeholder,
+  .foot_container_email::placeholder {
+    line-height: 2px; }
   .footer_container-two {
     display: none; } }
 
